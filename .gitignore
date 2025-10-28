@@ -1,0 +1,60 @@
+# Unity cache folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# MemoryCaptures can get excessive in size
+[Mm]emoryCaptures/
+
+# Recordings can get excessive in size
+[Rr]ecordings/
+
+# Asset Store Tools (optional)
+# Assets/AssetStoreTools*
+
+# JetBrains Rider plugin
+Assets/Plugins/Editor/JetBrains*
+
+# Visual Studio cache
+.vs/
+
+# Gradle cache
+.gradle/
+
+# Generated solution/project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Packed Addressables
+Assets/AddressableAssetsData/**/*.bin*
+
+# Temporary Android Assets
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*

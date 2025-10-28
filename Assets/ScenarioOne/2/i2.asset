@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4b2cbfffc2f24b89c996988333014, type: 3}
+  m_Name: i2
+  m_EditorClassIdentifier: 
+  tooltipWords:
+  - bringe
+  - Hoffentlich
+  - Richtige
+  tooltips:
+  - bring
+  - hopefully
+  - right / correct
+  ThisSpeaker: 0
+  dialog: Ja, ich bringe dir etwas. Hoffentlich ist es das Richtige.
+  hasQuestion: 1
+  correct: hab' einen Brief.
+  wrong: Nein.
+  wrongDialog: "Hm, das war nicht optimal\u2026 ich glaube, du hast da etwas in der
+    Hand."
+  correctDialog: "Ah, perfekt, danke dir. Anna sagt, du bist zuverl\xE4ssig!"
+  followUpDialog: 
+  wrongAnswerHelp: 

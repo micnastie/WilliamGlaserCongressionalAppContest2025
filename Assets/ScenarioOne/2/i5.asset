@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4b2cbfffc2f24b89c996988333014, type: 3}
+  m_Name: i5
+  m_EditorClassIdentifier: 
+  tooltipWords:
+  - Manchmal
+  - wichtiger
+  - "S\xE4tze"
+  - tritt
+  - "Fu\xDF"
+  tooltips:
+  - sometimes
+  - more important
+  - sentences
+  - steps
+  - foot
+  ThisSpeaker: 2
+  dialog: "Genau! Manchmal sind diese kleinen W\xF6rter wichtiger als ganze S\xE4tze.
+    Stell dir vor, jemand tritt dir auf den Fu\xDF."
+  hasQuestion: 0
+  correct: 
+  wrong: 
+  wrongDialog: 
+  correctDialog: 
+  followUpDialog: 
+  wrongAnswerHelp: 

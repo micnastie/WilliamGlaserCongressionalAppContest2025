@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8db345b876eb11449c7f4567f43d65e, type: 3}
+  m_Name: 1_Anna
+  m_EditorClassIdentifier: 
+  interactionArr:
+  - {fileID: 11400000, guid: 16e9225a98bfa4145ba36b6e665e98a4, type: 2}
+  - {fileID: 11400000, guid: a7698901b30ea12479030d083418d0b0, type: 2}
+  - {fileID: 11400000, guid: 24f2c6cf554c56d43acec4b1fbaeef10, type: 2}
+  - {fileID: 11400000, guid: 9b8403eee012706429dc42f15755570c, type: 2}
+  - {fileID: 11400000, guid: a920199317b8aa34b9327e5c53c9888c, type: 2}
+  - {fileID: 11400000, guid: af2b9fddb84c75b4abfd18a0db817bb9, type: 2}
+  - {fileID: 11400000, guid: 28bc1c15b98c771439c4001e4dc5ba42, type: 2}
+  otherSpeaker: 1
+  questToLoad: {fileID: 11400000, guid: 34fa177109c5f4542a502cd64a003683, type: 2}
+  endQuest: 0
+  nextConvoWhenBroken: {fileID: 0}

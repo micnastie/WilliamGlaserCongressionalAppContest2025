@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8db345b876eb11449c7f4567f43d65e, type: 3}
+  m_Name: 4_Mueller
+  m_EditorClassIdentifier: 
+  interactionArr:
+  - {fileID: 11400000, guid: f99e892e2c1fda64da9a0368bad6417a, type: 2}
+  - {fileID: 11400000, guid: 2568a67144b3a6e49ae9854193c87e5e, type: 2}
+  - {fileID: 11400000, guid: 609453bee82f6e9428745cf43b66ac6e, type: 2}
+  - {fileID: 11400000, guid: c015e8ae8847c0d45acdb003e8caa675, type: 2}
+  - {fileID: 11400000, guid: 4c2abe5fc16d66f4fbd6af78f57c58f7, type: 2}
+  - {fileID: 11400000, guid: 1f56a7171b67ba548a34befc9be52e49, type: 2}
+  - {fileID: 11400000, guid: a2ce751d7bea21d428091ca49363dfcc, type: 2}
+  - {fileID: 11400000, guid: 0d003f75907e7d74982a99bbfc4e616f, type: 2}
+  otherSpeaker: 2
+  questToLoad: {fileID: 0}
+  endQuest: 0
+  nextConvoWhenBroken: {fileID: 0}
