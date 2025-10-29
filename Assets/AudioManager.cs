@@ -3,25 +3,24 @@ using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance; // Singleton
-
+    public static AudioManager Instance; 
     [Header("Audio Sources")]
-    public AudioSource musicSource; // For background music
-    public AudioSource sfxSource;   // For sound effects
+    public AudioSource musicSource;
+    public AudioSource sfxSource;  
 
     [Header("Clips")]
-    public List<AudioClip> soundClips; // Assign in Inspector
+    public List<AudioClip> soundClips;
 
     private Dictionary<string, AudioClip> clipDict;
 
     private void Awake()
     {
-        // Singleton pattern
+       
         if (Instance == null)
         {
             Instance = this;
 
-            // Convert list into dictionary for fast lookup
+          
             clipDict = new Dictionary<string, AudioClip>();
             foreach (var clip in soundClips)
             {
@@ -35,9 +34,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // ====================
-    // MUSIC
-    // ====================
+   
     public void PlayMusic(string clipName, bool loop = true)
     {
         if (clipDict.ContainsKey(clipName))
@@ -57,9 +54,7 @@ public class AudioManager : MonoBehaviour
         musicSource.Stop();
     }
 
-    // ====================
-    // SOUND EFFECTS
-    // ====================
+   
     public void PlaySFX(string clipName)
     {
         if (clipDict.ContainsKey(clipName))
@@ -72,9 +67,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // ====================
-    // CONTROLS
-    // ====================
+   
     public void SetMusicVolume(float volume)
     {
         musicSource.volume = volume;
